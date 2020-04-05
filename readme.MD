@@ -7,13 +7,14 @@ O cronograma pode ser alterado de acordo com a velocidade de aprendizado da turm
 ### Aula 1
 - Conceitos Básicos
 - Variáveis
-
-### Aula 2
 - Tipos de Dados
 - Operadores
 
-### Aula 4
+### Aula 2
 - Estruturas Condicionais
 
-### Aula 5
+### Aula 3
 - Estruturas de Repetição
+
+### Aula 4
+- Treinando lógica

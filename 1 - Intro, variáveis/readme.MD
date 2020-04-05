@@ -1,20 +1,23 @@
+# Algoritmo
+
+Sequência *finita* de instruções ou operações para alcançar um objetivo. Um algoritmo possui dados de entrada (input) e dados de saída (output).
+
+Um exemplo simples de algoritmo são os procedimentos para jogar um jogo da memória.
+
+1. Enquanto eu não combino todos os pares:
+    1.1. Escolho uma carta;
+    1.2. Escolho outra carta;
+    1.3. Se a primeira carta é igual a segunda:
+        1.3.1. Coloco-as na minha pilha de cartas;
+    1.4. Senão:
+        1.4.1. Devolvo a primeira carta;
+        1.4.2. Devolvo a segunda carta;
+        1.4.3. Espero minha vez
+2. Fim de jogo
+
 # JavaScript
 
 *JavaScript* é uma linguagem de programação client-side. Ela é utilizada para controlar o HTML e o CSS para manipular comportamentos na página.
-
-Página HTML:
-
-    <!DOCTYPE html>
-    <html lang="pt-br">
-      <head>
-        <title>Título</title>
-        <meta charset="utf-8">
-      </head>
-      <body>
- 
-      </body>
-    </html>
-
 
 Script:
 
@@ -69,21 +72,15 @@ Alguns nomes não podem ser utilizados para criação de variáveis pois estão 
 
 ### Declaração
 
-Existem três tipos de declarações em JavaScript.
+Atualmente, são recomendados dois tipos de declarações em JavaScript.
 
-var - Declara uma variável, opcionalmente, inicializando-a com um valor.
+__let__ - Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor.
 
-let - Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor.
+   let x = 1
 
-const - Declara uma constante de escopo de bloco, apenas de leitura.
-
-Você pode declarar uma variável de três formas:
-
-- Com a palavra chave var. Por exemplo, var x = 42. Esta sintaxe pode ser usada para declarar tanto variáveis locais como variáveis globais.
-- Por simples adição de valor. Por exemplo, x = 42. Isso declara uma variável global. Essa declaração gera um aviso de advertência no JavaScript. Você não deve usar essa variante.
-- Com a palavra chave let. Por exemplo, let y = 13. Essa sintaxe pode ser usada para declarar uma variável local de escopo de bloco.
-
-__Por que const não aparece no bloco acima?__
+__const__ - Declara uma constante de escopo de bloco, apenas de leitura.
+   
+   const x = 3;
 
 ### Variáveis Globais
 
