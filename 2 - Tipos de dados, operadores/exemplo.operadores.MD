@@ -32,13 +32,16 @@ const numero3 = '7'; //string
 ## Operadores lógicos
 
 Eu vou à praia se fizer sol e eu tiver dinheiro. [AND]
+
 Eu vou à praia se fizer sol ou eu tiver dinheiro. [OR]
 
 P1 = se fizer sol
+
 P2 = eu tiver dinheiro
 
-
+### Tabela Verdade
 |-----|  P1 |  P2 |  D  |
+|-----|-----|-----|-----|
 | AND |  F  |  V  |  F  |
 | AND |  V  |  F  |  F  |
 | AND |  V  |  V  |  V  |
