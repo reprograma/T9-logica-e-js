@@ -4,7 +4,7 @@ Sequência *finita* de instruções ou operações para alcançar um objetivo. U
 
 Um exemplo simples de algoritmo são os procedimentos para jogar um jogo da memória.
 
-1. Enquanto eu não combino todos os pares:
+1. Enquanto o jogo não termina:
     1. Escolho uma carta;
     2. Escolho outra carta;
     3. Se a primeira carta é igual a segunda:
@@ -13,7 +13,8 @@ Um exemplo simples de algoritmo são os procedimentos para jogar um jogo da mem�
         1. Devolvo a primeira carta;
         2. Devolvo a segunda carta;
         3. Espero minha vez
-2. Fim de jogo
+    5. Se não há mais cartas não reveladas
+        1. Fim de jogo
 
 # JavaScript
 
