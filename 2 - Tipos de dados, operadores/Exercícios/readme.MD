@@ -41,8 +41,23 @@ alert(`Você viveu ${anos} anos, ${meses} meses e ${dias} dias`);
 (TODAS AS QUESTÕES ABAIXO SÃO DE UM MUNDO SEM COVID-19. TODO MUNDO TAVA NA RUA. VOCÊS FIQUEM EM CASA)
 
 **5.** Wenceslay gostaria de saber quantos quilômetro por litro, sua moto fez em média. Ele sabe a distância rodada e a quantidade de litros de combustível que ele utilizou. Crie um algoritmo que mostre a Wenceslay o que ele deseja.
+```
+const quilometro = prompt('Quilômetros rodados');
+const litro = prompt('Combustível gasto');
+
+alert(`Sua moto fez ${quilometro/litro} km/l`);
+```
 
 **6.** O gerente ficou louco! E agora não sabe quanto de desconto deu nos seus produtos para fazer o anúncio. Ele sabe o preço sem o desconto e com o desconto. Faça um algoritmo que calcule o percentual de desconto do produto.
+```
+const valorTotal = prompt('Valor total');
+const valorDesconto = prompt('Valor com desconto');
+
+let desconto = valorTotal - valorDesconto;
+desconto = (desconto*100)/valorTotal;
+
+alert(`O valor do desconto: ${desconto}%`);
+```
 
 **7.** Zenir é responsável por colocar a duração dos filmes no letreiro do cinema comunitário. A duração deve ser mostrada em minutos, mas alguns dos filmes exibidos vieram com a informação em horas e minutos. Ajude Zenir, ela tem mais o que fazer do que ficar fazendo conta.
 ```
