@@ -3,10 +3,51 @@
 **1.** Faça um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
 
 **2.** Escreva um código que receba um número (1-7) e devolva o dia da semana correspondente;
+```
+const diaSemana = parseInt(prompt('Digite o dia da semana [1-7]'));
+
+switch (diaSemana) {
+    case 1:
+        alert(`Domingo`);
+        break;
+    case 2:
+        alert(`Segunda-Feira`);
+        break;
+    case 3:
+        alert(`Terça-Feira`);
+        break;
+    case 4:
+        alert(`Quarta-Feira`);
+        break;
+    case 5:
+        alert(`Quinta-Feira`);
+        break;
+    case 6:
+        alert(`Sexta-Feira`);
+        break        
+    case 7:
+        alert(`Sábado`);
+        break;
+    default:
+        alert(`Dia de São Nunca`);
+}
+```
 
 **3.** Escreva um código que receba um número (1-12), e diga qual mês e quantos dias ele tem;
 
 **4.** Escreva um código que receba dois número e determine qual o maior entre eles;
+```
+const num1 = prompt('Digite o primeiro número:');
+const num2 = prompt('Digite o segundo número:');
+
+if (num1 > num2) {
+    alert(`${num1} é maior que ${num2}`);
+} else if (num1 === num2) {
+    alert(`${num1} é igual a ${num2}`);
+} else {
+    alert(`${num2} é maior que ${num1}`);
+}
+```
 
 **5.** Escreva um código que receba um número e determine se ele é par ou ímpar, e se é negativo ou positivo;
 
