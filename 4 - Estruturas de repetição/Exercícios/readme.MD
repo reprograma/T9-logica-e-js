@@ -23,51 +23,9 @@
 >
 >50 - R$ 99.50
 
-### Nem tão simples assim
+**8.** Para calcular o fatorial de um número, você multiplica todos os números menores que ele até 1. Por exemplo, 10! = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1. Faça um algoritmo que dado um número calcule o fatorial do mesmo.
 
-**8.** Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
-
-**9.** A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série até o n−ésimo termo.
-
-**10.** O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e agora possui uma loja de conveniências. Faça um programa que implemente uma caixa registradora rudimentar. O programa deverá receber um número desconhecido de valores referentes aos preços das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra. O programa deve então mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para então calcular e mostrar o valor do troco. Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima compra. A saída deve ser conforme o exemplo abaixo:
-
->Lojas Tabajara 
->
->Produto 1: R$ 2.20
->
->Produto 2: R$ 5.80
->
->Produto 3: R$ 0
->
->Total: R$ 9.00
->
->Dinheiro: R$ 20.00
->
->Troco: R$ 11.00
-
-**11.** O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia as um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a média das temperaturas.
-
-**12.** Em uma competição de ginástica, cada atleta recebe votos de sete jurados. A melhor e a pior nota são eliminadas. A sua nota fica sendo a média dos votos restantes. Você deve fazer um programa que receba o nome do ginasta e as notas dos sete jurados (um array) alcançadas pelo atleta em sua apresentação e depois informe a sua média, conforme a descrição acima informada. As notas não são informados ordenadas. Um exemplo de saída do programa deve ser conforme o exemplo abaixo:
-
->Resultado final:
->
->Atleta: Aparecido Parente
->
->Melhor nota: 9.9
->
->Pior nota: 7.5
->
->Média: 9.04
-
-### Voltou a ficar fácil
-
-**14.** Para calcular o fatorial de um número, você multiplica todos os números menores que ele até 1. Por exemplo, 10! = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1. Faça um algoritmo que dado um número calcule o fatorial do mesmo.
-
-**15.** Faça uma função que receba uma quantidade x e retorne um array com x números randomicos.
-
-**16.** Faça um algoritmo que sortei cara (0) ou coroa (1) n vezes. E no fim mostre quantas vezes deu cara e quantas coroa.
-
-**17.** Escreva um algoritmo que printe o seguinte padrão no console:
+**9.** Escreva um algoritmo que printe o seguinte padrão no console:
 
 \*\*\*\*\*\*\*
 
@@ -83,7 +41,7 @@
 
 \*
 
-**18.** Escreva um algoritmo que printe o seguinte padrão no console:
+**10.** Escreva um algoritmo que printe o seguinte padrão no console:
 
 1
 
@@ -97,11 +55,35 @@
 
 ### Momentos de Tensão
 
-**19.** Pangrama é uma frase que possui todas as letras do alfabeto. Faça um algoritmo que verifique se uma frase é um pangrama ou não.
+**11.** Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
 
-**20.** Crie um algoritmo que dados dois números calcule o MMC (Mínimo Múltiplo Comum)
+**12.** A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série até o n−ésimo termo.
 
-**21.** Escreva um loop em Javascript que printa o seguinte padrão no console:
+**13.** O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e agora possui uma loja de conveniências. Faça um programa que implemente uma caixa registradora rudimentar. O programa deverá receber um número desconhecido de valores referentes aos preços das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra. O programa deve então mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para então calcular e mostrar o valor do troco. Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima compra. A saída deve ser conforme o exemplo abaixo:
+
+>Lojas Tabajara 
+>
+>Produto 1: R$ 2.20
+>
+>Produto 2: R$ 5.80
+>
+>Produto 3: R$ 0
+>
+>Total: R$ 9.00
+>
+>Dinheiro: R$ 20.00
+>
+>Troco: R$ 11.00
+
+**14.** O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia as um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a média das temperaturas.
+
+**15.** Faça um algoritmo que sortei cara (0) ou coroa (1) n vezes. E no fim mostre quantas vezes deu cara e quantas coroa.
+
+**16.** Pangrama é uma frase que possui todas as letras do alfabeto. Faça um algoritmo que verifique se uma frase é um pangrama ou não.
+
+**17.** Crie um algoritmo que dados dois números calcule o MMC (Mínimo Múltiplo Comum)
+
+**18.** Escreva um loop em Javascript que printa o seguinte padrão no console:
 1******
 
 12*****
