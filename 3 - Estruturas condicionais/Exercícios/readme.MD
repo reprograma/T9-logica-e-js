@@ -201,7 +201,7 @@ if (numero % 2 === 0 && numero > 0) {
 **6.** Escreva um código que receba três ângulos e determine se eles formam um triângulo válido.
 Em um triângulo válido, a soma dos três ângulos é igual a 180º.
 
-**7.**. Elaborar um algoritmo que lê 2 valores a e b e informa se são múltiplos ou não.
+**7.** Elaborar um algoritmo que lê 2 valores a e b e informa se são múltiplos ou não.
 
 **8.** Crie um código que retorne a quantidade de pontos que seu time fez de acordo com o resultado do jogo. (Se o seu time venceu, ele recebe 3 pontos. Se o resultado foi empate, ele recebe 1 ponto. Se ele perdeu, não recebe nada.)
 
@@ -247,6 +247,45 @@ Em um triângulo válido, a soma dos três ângulos é igual a 180º.
 | 101 | Gerente | 10% |
 | 102 | Engenheiro |	20% |
 | 103 | Técnico | 30% |
+
+```
+// 101 Gerente 10%
+// 102 Engenheiro 20%
+// 103 Técnico 30%
+// XXX 40%
+
+// Input: Código do cargo e o salário
+// Output: Salário antigo, novo salário e diferença
+
+const codigo = prompt('Digite o código do cargo');
+const salario = parseFloat(prompt('Digite o salário atual do trabalhador'));
+
+let percentAumento = 0.4;
+if (codigo === '101') {
+    percentAumento = 0.1;
+} else if (codigo === '102') {
+    percentAumento = 0.2;
+} else if (codigo === '103') {
+    percentAumento = 0.3;
+}
+
+// switch(codigo){
+//     case '101':
+//         percentAumento = 0.1;
+//         break;
+//     case '102':
+//         percentAumento = 0.2;
+//         break;
+//     case '103':
+//         percentAumento = 0.3;
+//         break;
+// }
+
+
+const salarioNovo = salario + salario * percentAumento;
+
+alert(`Salário anterior: ${salario}; Salário novo: ${salarioNovo}; Diferença: ${salarioNovo - salario}`)
+```
 
 **5.** Escrever um algoritmo que lê o número de identificação, as 3 notas obtidas por um aluno nas 3 verificações e a média dos exercícios que fazem parte da avaliação. Calcular a média de aproveitamento, usando a fórmula:
 
