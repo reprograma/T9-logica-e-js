@@ -177,6 +177,26 @@ if (num1 > num2) {
 ```
 
 **5.** Escreva um código que receba um número e determine se ele é par ou ímpar, e se é negativo ou positivo;
+```
+//Se o número é par, ele é divisivél por dois (ex: 4%2 =0)
+//Se o número é  impar, ele não é divisivél por dois (ex: 5%2!=0)
+//Se o número for positivo é maior que zero
+//Se o número for negativo é menor que zero
+
+const numero = parseInt(prompt('Digite um número'));
+
+if (numero % 2 === 0 && numero > 0) {
+    alert(`${numero} é par, e ele é positivo`);
+} else if (numero % 2 === 0 && numero < 0) {
+    alert(`${numero} é par, e ele é negativo`);
+} else if (numero % 2 !== 0 && numero > 0) {
+    alert(`${numero} é impar, e ele é positivo`);
+} else if (numero % 2 !== 0 && numero < 0) {
+    alert(`${numero} é par, e ele é negativo`);
+} else {
+    alert(`${numero} é um número neutro`);
+}
+```
 
 **6.** Escreva um código que receba três ângulos e determine se eles formam um triângulo válido.
 Em um triângulo válido, a soma dos três ângulos é igual a 180º.
