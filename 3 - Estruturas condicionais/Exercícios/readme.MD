@@ -1,6 +1,38 @@
 ### Exercícios simples
 
 **1.** Faça um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
+```
+// Solicitando a letra do usuário
+const letra = prompt('Digite uma letra do alfabeto.');
+
+// Resolvendo com switch
+switch (letra) {
+    case 'a': // Colocamos os cases seguidos um do outro para economizar
+    case 'e': // código, já que todos eles terão a mesma mensagem
+    case 'i':
+    case 'o':
+    case 'u': 
+        alert(`A letra ${letra} é uma vogal`);
+        break; // Se não houver o break, o alert dentro de default tbm será mostrado
+    default:
+        alert(`A letra ${letra} é uma consoante`);
+}
+
+
+// Resolvendo com if
+// Verificando o valor da constante letra
+// || (pipe) significa ou
+// Meu if quer dizer "Se letra igual a 'a' OU letra igual a 'e' ..."
+// if (letra === 'a'
+//     || letra === 'e'
+//     || letra === 'i'
+//     || letra === 'o'
+//     || letra === 'u') {
+//     alert(`A letra ${letra} é uma vogal`);
+// } else { // Qualquer outra letra que não passar no teste do if, é uma consoante
+//     alert(`A letra ${letra} é uma consoante`);
+// }
+```
 
 **2.** Escreva um código que receba um número (1-7) e devolva o dia da semana correspondente;
 ```
