@@ -1,4 +1,4 @@
-**1.** Faça um algoritmo que imprima números inteiros de n a 1;
+**1.** Faça um algoritmo que imprima números inteiros de n a 1 (Ex.: O usuário digita o número 10. Você deve lista 10, 9, 8, 7, 6, 5, 4, 3, 2, 1);
 
 **2.** Faça um algoritmo que imprima apenas os números ímpares de 1 a 100;
 
