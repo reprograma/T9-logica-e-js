@@ -50,7 +50,7 @@ alert(`A soma dos múltiplos de 3 e 5 é ${soma}`);
 
 **4.** Seu Miguel da vendinha da esquina, não sabe multiplicar. Faça para ele um programa que dado um número, print (console.log) a tabuada do mesmo de 1 a 10.
 
-**5.** Faça um programa que leia 5 números e informe o maior número. [Cancelada]
+**5.** Faça um programa que leia um array e informe o maior número. (Fazer com a mamãe)
 
 **6.** Faça um Programa que leia um array de 5 números inteiros e mostre-os. (Fazer com a mamãe)
 
