@@ -20,6 +20,36 @@ Uma declaração while executa suas instruções, desde que uma condição espec
        código aqui;
     }
 
+Exemplos de código que só pode ser feito com while
+
+```
+let resposta = prompt('Escolha uma das opções a seguir: \n\r(1) Mensagem de paz \n\r(2) Mensagem de incentivo \n\r(3) Mensagem de guerra \n\r(s) Sair');
+
+while (resposta !== 's') { //Enquanto a condição for satisfeita, ele entra no loop
+    if (resposta === '1') {
+        alert('#pas');
+    } else if (resposta === '2') {
+        alert('Gambatê!');
+    } else if (resposta === '3') {
+        alert('Se plante!');
+    } else {
+        alert('Opção desconhecida');
+    }
+
+    resposta = prompt('Escolha uma das opções a seguir: \n\r(1) Mensagem de paz \n\r(2) Mensagem de incentivo \n\r(3) Mensagem de guerra \n\r(s) Sair');
+}
+```
+
+```
+let enviado = false;
+while (!enviado) { //while(enviado === false)
+    //Enviando email
+    // Meu codigo aqui
+    enviado = enviarEmail(); //função de enviar email que retorna verdadeiro ou falso
+}
+```
+
+
 ### do-while
 
 A instrução do-while repetirá até que a condição especificada seja falsa. O corpo é sempre executado pelo menos uma vez, independente da condição, pois primeiro ele faz do e depois testa a condição.
