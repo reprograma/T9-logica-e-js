@@ -3,6 +3,24 @@
 **2.** Faça um algoritmo que imprima apenas os números ímpares de 1 a 100;
 
 **3.** Faça um algoritmo que imprima a soma dos números múltiplos de 3 e 5, menores que 1000.
+```
+// Condição de parada: Chegar ao 1000
+// Condição: Somar apenas números múltiplos de 3 e 5
+// Exemplo: 15 + 30 + ...
+
+let soma = 0;
+// soma é criado do lado de fora para manter o valor dos numero somados
+
+for (let i = 1; i < 1000; i++) {     
+    if (i % 3 === 0 && i % 5 === 0) {
+        soma += i; // soma = soma + i;
+        console.log('i', i);
+        console.log('soma', soma);
+    }
+}
+
+alert(`A soma dos múltiplos de 3 e 5 é ${soma}`);
+```
 
 **4.** Seu Miguel da vendinha da esquina, não sabe multiplicar. Faça para ele um programa que dado um número, print (console.log) a tabuada do mesmo de 1 a 10.
 
