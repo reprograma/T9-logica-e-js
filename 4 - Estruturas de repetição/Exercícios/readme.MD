@@ -166,3 +166,16 @@ for (let i = 1; i <= 5; i++) {
 
 1234567
 
+```
+let numeros = '';
+for (let i = 1; i <= 7; i++) {
+    numeros += i;
+    console.log(`${numeros}${'*'.repeat(7 - i)}`)
+}
+
+// let numeros = '';
+// for (let i = 1, j = 6; i <= 7 && j >= 0; i++, j--) {
+//     numeros += i;
+//     console.log(`${numeros}${'*'.repeat(j)}`)
+// }
+```
