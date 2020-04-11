@@ -96,6 +96,12 @@ for (let i = 0; i < listaNumero.length; i++) {
 
 \*
 
+```
+for (let i = 7; i >= 1; i--) {
+    console.log('*'.repeat(i));
+}
+```
+
 **10.** Escreva um algoritmo que printe o seguinte padrão no console:
 
 1
