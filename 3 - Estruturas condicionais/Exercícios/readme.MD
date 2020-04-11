@@ -331,6 +331,46 @@ if (codigo === 1) {
 | 104 | Cheeseburguer | R$ 2,50 |
 | 105 | Refrigerante | R$ 1,00 |
 
+```
+const codigo = prompt('Qual é o código do produto (entre 100 a 105)?');
+let preco;
+let produto;
+
+switch (codigo) {
+    case '100':
+        preco = 1.7;
+        produto = 'Cachorro quente';
+        break;
+    case '101':
+        preco = 2.3;
+        produto = 'Bauru Simples';
+        break;
+    case '102':
+        preco = 2.6;
+        produto = 'Bauru com ovo';
+        break;
+    case '103':
+        preco = 2.4;
+        produto = 'Hamburguer';
+        break;
+    case '104':
+        preco = 2.5;
+        produto = 'Cheeseburguer';
+        break;
+    case '105':
+        preco = 1;
+        produto = 'Refrigerante';
+        break;
+    default:
+         alert('Esse código não representa um produto válido no podrexxx.');
+}
+
+if (preco) {
+    const quantidade = parseInt(prompt('Qual é a quantidade de produtos?'));
+    alert(`Você escolheu ${quantidade} ${produto}(s), e o preço total é ${(preco * quantidade).toFixed(2)}`);
+}
+```
+
 **3.** Escrever um algoritmo que lê um valor em reais e calcula qual o menor número possível de notas de 100, 50, 10, 5 e 1 em que o valor lido pode ser decomposto. Escrever o valor lido e a relação de notas necessárias.
 
 **4.** Uma empresa concederá um aumento de salário aos seus funcionários, variável de acordo com o cargo, conforme a tabela abaixo. Faça um algoritmo que leia o salário e o cargo de um funcionário e calcule o novo salário. Se o cargo do funcionário não estiver na tabela, ele deverá, então, receber 40% de aumento. Mostre o salário antigo, o novo salário e a diferença. 
