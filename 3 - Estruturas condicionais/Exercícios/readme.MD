@@ -372,6 +372,64 @@ if (preco) {
 ```
 
 **3.** Escrever um algoritmo que lê um valor em reais e calcula qual o menor número possível de notas de 100, 50, 10, 5 e 1 em que o valor lido pode ser decomposto. Escrever o valor lido e a relação de notas necessárias.
+```
+const valor = parseInt(prompt('Digite um valor em reais'));
+
+let qtd100 = 0;
+let qtd50 = 0;
+let qtd20 = 0;
+let qtd10 = 0;
+let qtd5 = 0;
+let qtd2 = 0;
+let qtd1 = 0;
+let resto = valor;
+
+let mensagem = `O valor R$ ${valor} é decomposto em:`;
+
+if (valor > 0 && parseInt(valor / 100) > 0) {
+    qtd100 = parseInt(valor / 100);
+    resto = valor % 100;
+    mensagem += `\n\r${qtd100} notas de R$ 100`;
+}
+
+if (resto > 0 && parseInt(resto / 50) > 0) {
+    qtd50 = parseInt(resto / 50);
+    resto = resto % 50;
+    mensagem += `\n\r${qtd50} notas de R$ 50`;    
+}
+
+if (resto > 0 && parseInt(resto / 20) > 0) {
+    qtd20 = parseInt(resto / 20);
+    resto = resto % 20;
+    mensagem += `\n\r${qtd20} notas de R$ 20`;    
+}
+
+if (resto > 0 && parseInt(resto / 10) > 0) {
+    qtd10 = parseInt(resto / 10);
+    resto = resto % 10;
+    mensagem += `\n\r${qtd10} notas de R$ 10`;
+}
+
+if (resto > 0 && parseInt(resto / 5) > 0) {
+    qtd5 = parseInt(resto / 5);
+    resto = resto % 5;    
+    mensagem += `\n\r${qtd5} notas de R$ 5`;
+}
+
+if (resto > 0 && parseInt(resto / 2) > 0) {
+    qtd2 = parseInt(resto / 2);
+    resto = resto % 2;    
+    mensagem += `\n\r${qtd2} notas de R$ 2`;    
+}
+
+if (resto > 0 && parseInt(resto / 1) > 0) {
+    qtd1 = parseInt(resto / 1);
+    resto = resto % 1;
+    mensagem += `\n\r${qtd1} notas de R$ 1`;
+}
+
+alert(mensagem);
+```
 
 **4.** Uma empresa concederá um aumento de salário aos seus funcionários, variável de acordo com o cargo, conforme a tabela abaixo. Faça um algoritmo que leia o salário e o cargo de um funcionário e calcule o novo salário. Se o cargo do funcionário não estiver na tabela, ele deverá, então, receber 40% de aumento. Mostre o salário antigo, o novo salário e a diferença. 
 
