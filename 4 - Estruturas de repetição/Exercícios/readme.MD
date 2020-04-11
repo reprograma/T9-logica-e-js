@@ -114,6 +114,12 @@ for (let i = 7; i >= 1; i--) {
 
 55555
 
+```
+for (let i = 1; i <= 5; i++) {
+    console.log(i.toString().repeat(i))
+}
+```
+
 ### Momentos de Tensão
 
 **11.** Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
@@ -145,6 +151,7 @@ for (let i = 7; i >= 1; i--) {
 **17.** Crie um algoritmo que dados dois números calcule o MMC (Mínimo Múltiplo Comum)
 
 **18.** Escreva um loop em Javascript que printa o seguinte padrão no console:
+
 1******
 
 12*****
