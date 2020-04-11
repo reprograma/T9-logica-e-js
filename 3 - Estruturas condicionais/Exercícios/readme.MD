@@ -435,3 +435,31 @@ A atribuição de conceitos obedece a tabela abaixo:
 |< 4,0 | E |
 
 O algoritmo deve escrever o número do aluno, suas notas, a média dos exercícios, a média de aproveitamento, o conceito correspondente e a mensagem: APROVADO se o conceito for A,B ou C e REPROVADO se o conceito for D ou E.
+```
+const nota1 = parseFloat(prompt('insira aqui a Nota 1'));
+const nota2 = parseFloat(prompt('insira aqui a Nota 2'));
+const nota3 = parseFloat(prompt('insira aqui a Nota 3'));
+const ME = parseFloat(prompt('insira aqui o ME'));
+
+let MA = (nota1 + (nota2 * 2) + (nota3 * 3) + ME) / 7;
+let conceito;
+let mensagem;
+
+if (MA >= 9) {
+    conceito = 'A';
+    mensagem = 'aprovado';
+} else if (MA >= 7.5 && MA < 9) {
+    conceito = 'B';
+    mensagem = 'aprovado';
+} else if (MA >= 6 && MA < 7.5) {
+    conceito = 'C';
+    mensagem = 'aprovado';
+} else if (MA >= 4 && MA < 6) {
+    conceito = 'D';
+    mensagem = 'reprovado';
+} else if (MA < 4) {
+    conceito = 'E';
+    mensagem = 'reprovado';
+}
+alert(`A média de aproveitamento do aluno foi ${MA.toFixed(2)}, o conceito foi ${conceito} e o aluno está ${mensagem}.`)
+```
