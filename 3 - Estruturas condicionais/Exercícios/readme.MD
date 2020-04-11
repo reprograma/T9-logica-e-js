@@ -302,6 +302,24 @@ if (angulo > 0 && angulo < 90) {
 | 8 até 15 | Limpeza e Utensílios Domésticos |
 | Qualquer outro código | Código inválido |
 
+```
+const codigo = parseInt(prompt('Digite o código desejado'));
+
+if (codigo === 1) {
+    alert('Você escolheu alimento não-perecível');
+} else if (codigo >= 2 && codigo <= 4) {
+    alert('Você escolheu alimento perecível');
+} else if (codigo === 5 || codigo === 6) {
+    alert('Você escolheu vestuário');
+} else if (codigo === 7) {
+    alert('Você escolheu Higiene Pessoal');
+} else if (codigo >= 8 && codigo <= 15) {
+    alert('Você escolheu Limpeza e Utensílios Domésticos');
+} else {
+    alert('Código inválido');
+}
+```
+
 **2.** Baseado na tabela abaixo, escreva um algoritmo que leia o código do item adquirido pelo consumidor e a quantidade, calculando e mostrando o valor a pagar. A mensagem de retorno deve conter o produto, a quantidade e o valor total a pagar.
 
 | Código | Produto | Preço Unitário (R$) |
